@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<h2>Contact Form</h2>
+
+<div1 class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		
+	<label for="state">State/Territory</label>
+    <select id="state" name="state">
+	<option value="" selected disabled hidden>State</option>
+      <option value="western australia">WA</option>
+      <option value="new south wales">NSW</option>
+      <option value="queensland">QLD</option>
+      <option value="northen territory">NT</option>
+      <option value="south australia">SA</option>
+      <option value="victoria">VIC</option>
+	  <option value="tazmania">TAZ</option>
+    </select>
+
+    <label for="subject">Subject</label>
+	<select id="subject" name="subject">
+	<option value="" selected disabled hidden>Subject</option>
+	 <option value="cocktails">Cocktails</option>
+	 <option value="suggestion">Suggestion</option>
+	 <option value="complaint">Complaint</option>
+	 
+	<label for="details">Details of Subject</label>
+	<select id="details" name="details">
+    <textarea id="details" name="details" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" button class="button button1" </input>
+  </form>
+</div1>
+
+</body>
+</html>
